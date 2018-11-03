@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poor Story', cursive;
+}
+
+div#to-do-list{
+    width:50%;
+    margin:auto;
+    border:solid black;
+}
+.title-class{
+    font-family: 'Spicy Rice', cursive;
+    font-size: 150% ;
+    color: #7f2a18 ;
+}
+
+label.line-through {
+    text-decoration: line-through;
+}
+
+div#to-do-list ul{
+   list-style:none;
+}
+
+
+.div-bar{
+   margin:20px;
+}
+
+.fa-plus-circle{
+   cursor:pointer;
+}
+.fa-times-circle{
+float:right;
+cursor:pointer;
+}
+
+.moove{
+margin-left:10px;
+}

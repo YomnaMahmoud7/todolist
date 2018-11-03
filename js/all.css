@@ -1,0 +1,71 @@
+    $("li.tasks-list-li").append("<input  type='checkbox'>"+inputTask+"</input>");
+    $("li.tasks-list-li").append('<i class="fa fa-times-circle" aria-hidden="true"></i>');
+    $("#add-icon").val("");
+
+
+//-----------------------------
+
+    $("ul.tasks-list").append('<li class="tasks-list-li">'+"<input  type='checkbox' class='checkbox_check'>"+ inputTask+"</input>"+'<i class="fa fa-times-circle" aria-hidden="true" id="remove-icon"></i>'+'</li>');
+$("#input-task").val("");
+//------------------------------------
+      $("li").append("<input  type='checkbox' class='checkbox_check'>"+ inputTask+"</input>");
+      $("ul.div-todo").append("li");
+
+
+ function allStorage() {
+
+    var values = [],
+        keys = Object.keys(localStorage),
+        i = keys.length;
+
+    while ( i-- ) {
+        values.push( localStorage.getItem(keys[i]) );
+    }
+
+    return values;
+}
+
+
+
+//localStorage.clear();
+//console.log(localStorage);
+//for (var a in localStorage) {
+  // console.log(a, ' = ', localStorage[a]);
+//}
+
+
+            
+ //window.localStorage.myitems = inputTask.innerHTML;
+//var storedValues = window.localStorage.myitems;
+//inputTask.innerHTML = storedValues;
+//console.log(storedValues);
+//console.log(inputTask);
+  
+
+           // $(".checkbox_check").remove();
+//margin-left: 42px;
+
+
+
+
+//var myitems;
+ //window.localStorage.myitems = inputTask.innerHTML;
+//var storedValues = window.localStorage.myitems;
+//console.log(storedValues);
+
+
+function readyOn(){
+var stringTasksInLocalStorage=localStorage.tasks;
+var tasksArray= stringTasksInLocalStorage.split(",");
+console.log(tasksArray[0]);
+for(i=0;i<tasksArray.length;i++){
+
+
+
+
+
+
+//----------------------------------------------------------
+
+
+
